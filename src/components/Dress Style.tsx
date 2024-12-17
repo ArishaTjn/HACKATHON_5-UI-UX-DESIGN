@@ -1,3 +1,4 @@
+import Image from "next/image";
 const DressStyleGrid = () => {
     const dressStyles = [
       { name: "Casual", image: "/images/frame 61.png" },
@@ -17,7 +18,7 @@ const DressStyleGrid = () => {
               key={style.name}
               className="relative group cursor-pointer overflow-hidden"
             >
-              <img
+              <Image
                 src={style.image}
                 alt={style.name}
                 className="w-full h-60 object-cover transform transition-transform duration-300 group-hover:scale-110"

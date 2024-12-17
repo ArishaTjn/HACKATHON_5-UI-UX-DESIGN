@@ -1,7 +1,7 @@
 "use client"
 
 import * as React from "react"
-import Link from "next/link"
+
 
 import { cn } from "@/lib/utils"
 
@@ -12,30 +12,30 @@ import {
   NavigationMenuLink,
   NavigationMenuList,
   NavigationMenuTrigger,
-  navigationMenuTriggerStyle,
+ 
 } from "@/components/ui/navigation-menu"
 
 const components: { title: string; href: string; description: string }[] = [
  
   {
-    title: "Progress",
+    title: "Casual",
     href: "/docs/primitives/progress",
     description:
       "Displays an indicator showing the completion progress of a task, typically displayed as a progress bar.",
   },
   {
-    title: "Scroll-area",
+    title: "Formal",
     href: "/docs/primitives/scroll-area",
     description: "Visually or semantically separates content.",
   },
   {
-    title: "Tabs",
+    title: "Gym",
     href: "/docs/primitives/tabs",
     description:
       "A set of layered sections of content—known as tab panels—that are displayed one at a time.",
   },
   {
-    title: "Tooltip",
+    title: "Party",
     href: "/docs/primitives/tooltip",
     description:
       "A popup that displays information related to an element when the element receives keyboard focus or the mouse hovers over it.",
