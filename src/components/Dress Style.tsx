@@ -19,6 +19,8 @@ const DressStyleGrid = () => {
               className="relative group cursor-pointer overflow-hidden"
             >
               <Image
+              width={200}
+              height={200}
                 src={style.image}
                 alt={style.name}
                 className="w-full h-60 object-cover transform transition-transform duration-300 group-hover:scale-110"

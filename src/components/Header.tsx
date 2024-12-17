@@ -21,8 +21,8 @@ export default function Header() {
             
            
             <Link href={""}> <NavigationMenuDemo /></Link>
-            <Link href={"Top Selling"}>On Sale</Link>
-            <Link href={"New Arrival"}>New Arrival</Link>
+            <Link href={""}>On Sale</Link>
+            <Link href={""}>New Arrival</Link>
             <Link href={""}>Brands</Link>
 
         </li>
